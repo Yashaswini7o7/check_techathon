@@ -1,0 +1,12 @@
+[
+  {"id": "C001","name":"Asha Sharma","age":32,"city":"Delhi","phone":"9990000001","email":"asha@example.com","current_loans":0,"credit_score":780,"preapproved_limit":500000},
+  {"id": "C002","name":"Vikram Rao","age":41,"city":"Bengaluru","phone":"9990000002","email":"vikram@example.com","current_loans":1,"credit_score":720,"preapproved_limit":300000},
+  {"id": "C003","name":"Neeta Patel","age":29,"city":"Ahmedabad","phone":"9990000003","email":"neeta@example.com","current_loans":0,"credit_score":650,"preapproved_limit":150000},
+  {"id": "C004","name":"Rohit Singh","age":35,"city":"Gurgaon","phone":"9990000004","email":"rohit@example.com","current_loans":2,"credit_score":710,"preapproved_limit":200000},
+  {"id": "C005","name":"Sonal Mehta","age":27,"city":"Mumbai","phone":"9990000005","email":"sonal@example.com","current_loans":0,"credit_score":820,"preapproved_limit":700000},
+  {"id": "C006","name":"Arjun Nair","age":45,"city":"Kochi","phone":"9990000006","email":"arjun@example.com","current_loans":1,"credit_score":690,"preapproved_limit":250000},
+  {"id": "C007","name":"Priya Gupta","age":38,"city":"Chandigarh","phone":"9990000007","email":"priya@example.com","current_loans":0,"credit_score":740,"preapproved_limit":400000},
+  {"id": "C008","name":"Suresh Kumar","age":50,"city":"Patna","phone":"9990000008","email":"suresh@example.com","current_loans":3,"credit_score":680,"preapproved_limit":100000},
+  {"id": "C009","name":"Meera Iyer","age":30,"city":"Hyderabad","phone":"9990000009","email":"meera@example.com","current_loans":0,"credit_score":760,"preapproved_limit":450000},
+  {"id": "C010","name":"Karan Verma","age":34,"city":"Pune","phone":"9990000010","email":"karan@example.com","current_loans":1,"credit_score":710,"preapproved_limit":220000}
+]
