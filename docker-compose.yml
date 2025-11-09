@@ -1,0 +1,22 @@
+version: "3.8"
+services:
+  crm:
+    build: ./backend/mocks
+    command: python crm_server.py
+    ports: ["5001:5001"]
+    volumes: ["./backend/mocks:/app"]
+  offers:
+    build: ./backend/mocks
+    command: python offer_mart.py
+    ports: ["5002:5002"]
+    volumes: ["./backend/mocks:/app"]
+  credit:
+    build: ./backend/mocks
+    command: python credit_bureau.py
+    ports: ["5003:5003"]
+    volumes: ["./backend/mocks:/app"]
+  master:
+    build: ./backend/master_agent
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+    ports: ["8000:8000"]
+    volumes: ["./backend/master_agent:/app"]
